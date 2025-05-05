@@ -31,11 +31,14 @@
     display: flex;
     gap: 1.5rem;
   }
+
+  .icons a {
+    color: white;
+    text-decoration: none;
+  }
   
-  .icons i {
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: color 0.3s;
+  .icons a:hover {
+    color: #92a68a;
   }
   
   /* Ícone clicado */
@@ -143,3 +146,118 @@
       max-width: 300px; /* Limita o tamanho da imagem em telas maiores */
     }
   }
+
+  /* Anne */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  padding-top: 130px; 
+}
+
+/* cabeçalho fixo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #506266;
+  color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: #92a68a;
+}
+
+.icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0.75rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #92a68a;
+}
+
+/* duas colunas */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+/* cards */
+.card {
+  background-color: #bcc499; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* imagem com cantos arredondados */
+.card-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.card-body {
+  background-color: #bcc499; 
+  padding: 1rem;
+}
+
+.card-title {
+  color: #506266;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  color: #7b8f8a;
+}
+
+.card-meta {
+  font-size: 0.9rem;
+  color: #506266;
+  margin-bottom: 0.5rem;
+}
