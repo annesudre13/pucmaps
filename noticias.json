@@ -7,6 +7,12 @@
         "imagem": "pucaberta.jpg"
       },
       {
+        "titulo": "Vacinação contra a gripe",
+        "data": "Abril e Maio 2025 - Complexo Esportivo sala 404",
+        "descricao": "O Instituto de Ciências Biológicas e da Saúde da PUC Minas, por meio do Departamento de Enfermagem e em parceria com a Secretaria Municipal de Saúde de Belo Horizonte, promoverá...",
+        "imagem": "gripe.jpg"
+      },
+      {
         "titulo": "Comp Software Day",
         "data": "21/03/2025 - Teatro PUC Minas",
         "descricao": "Alunos da PUC Minas, não percam a palestra sobre a inauguração da nova Empresa Júnior, a COMP! Venham conhecer os projetos inovadores e as oportunidades que essa...",
@@ -15,7 +21,7 @@
       {
         "titulo": "Sejam bem-vindos à PUC!",
         "data": "12/04/2025 - Complexo Esportivo",
-        "descricao": "VVenham para o evento de recepção de calouros, que terá muitas atividades e surpresas! Vocês poderão conhecer a universidade, fazer novas amizades e começar essa jornada...",
+        "descricao": "Venham para o evento de recepção de calouros, que terá muitas novidades e surpresas! Vocês poderão conhecer a universidade, fazer novas amizades e começar essa jornada...",
         "imagem": "boasvindas.jpg"
       },
       {
@@ -29,12 +35,6 @@
         "data": "Data não definida - Prédio 9",
         "descricao": "O prédio 9 está em obra e não pode ser utilizado por tempo indeterminado.",
         "imagem": "obra.jpg"
-      },
-      {
-        "titulo": "Desconto no R.U",
-        "data": "05/05/2025 - Lanchonete próxima ao DCE",
-        "descricao": "HAproveite a promoção imperdível na PUC! Hambúrgueres e sucos naturais com 15% de desconto, para você saborear o melhor com preço especial! Só aqui, só hoje, não perca!",
-        "imagem": "promocao.jpg"
       }
     ]
   }
