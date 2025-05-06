@@ -8,15 +8,15 @@
       },
       {
         "titulo": "Vacinação contra a gripe",
-        "data": "Abril e Maio 2025 - Complexo Esportivo sala 404",
-        "descricao": "O Instituto de Ciências Biológicas e da Saúde da PUC Minas, por meio do Departamento de Enfermagem e em parceria com a Secretaria Municipal de Saúde de Belo Horizonte, promoverá...",
+        "data": "Abril e Maio 2025 - Sala 404 do Complexo Esportivo",
+        "descricao": "O Instituto de Ciências Biológicas e da Saúde da PUC Minas, por meio do Departamento de Enfermagem e em parceria com a Secretaria Municipal de Saúde de Belo Horizonte...",
         "imagem": "gripe.jpg"
       },
       {
-        "titulo": "Comp Software Day",
-        "data": "21/03/2025 - Teatro PUC Minas",
-        "descricao": "Alunos da PUC Minas, não percam a palestra sobre a inauguração da nova Empresa Júnior, a COMP! Venham conhecer os projetos inovadores e as oportunidades que essa...",
-        "imagem": "comp.jpg"
+        "titulo": "Palestra Dom Serafim",
+        "data": "07/05 - Auditório 3",
+        "descricao": "A PUC Minas promoverá a palestra Dom Serafim, Cardeal Fernandes de Araújo - Construtor da Esperança, que será ministrada pelo Prof. Dr. Frei Luiz Antônio Pinheiro, OSA, com a...",
+        "imagem": "palestra.jpg"
       },
       {
         "titulo": "Sejam bem-vindos à PUC!",
@@ -25,16 +25,16 @@
         "imagem": "boasvindas.jpg"
       },
       {
-        "titulo": "Maratona Feminina de Programação",
-        "data": "07/04/2025 - Teatro PUC Minas",
-        "descricao": "Meninas da Computação, é a hora de brilhar! Estão abertas as inscrições para a Maratona Feminina de Programação da SBC! Se você curte desafios, quer aprender mais sobre...",
-        "imagem": "mfp.jpg"
+        "titulo": "Comp Software Day",
+        "data": "21/03/2025 - Teatro PUC Minas",
+        "descricao": "Alunos da PUC Minas, não percam a palestra sobre a inauguração da nova Empresa Júnior, a COMP! Venham conhecer os projetos inovadores e as oportunidades que essa iniciativa...",
+        "imagem": "comp.jpg"
       },
       {
-        "titulo": "Obras",
-        "data": "Data não definida - Prédio 9",
-        "descricao": "O prédio 9 está em obra e não pode ser utilizado por tempo indeterminado.",
-        "imagem": "obra.jpg"
+        "titulo": "Festival de Primavera",
+        "data": "Data e local em @pastoralpucminas",
+        "descricao": "Combinando arte, cultura e criatividade, o festival promove encontros construídos a partir das relações humanas e do fazer artístico. É um espaço dedicado à criação e à expressão...",
+        "imagem": "festival.jpg"
       }
     ]
   }
