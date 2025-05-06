@@ -5,73 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Notícias - PUC Maps</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
   <header>
     <h1>PUC Maps</h1>
     <div class="icons">
-      <a href="script.js"><i class="fas fa-home"></i></a>
+      <a href="index.html"><i class="fas fa-home"></i></a>
       <a href="#"><i class="fas fa-list"></i></a>
       <a href="#"><i class="fas fa-cog"></i></a>
     </div>
   </header>
 
-  <div id="map" style="height: 300px;"></div>
-
   <main class="card-grid">
-    <!-- Os cards de notícias serão gerados dinamicamente aqui -->
+    <!-- Cards gerados com JS -->
   </main>
 
-  <script>
-    const map = L.map('map').setView([-19.9193, -43.9997], 17);
+  <footer>
+    <p>&copy; 2025 - PUC Minas • Unidade Coração Eucarístico</p>
+  </footer>
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
-
-    // Ícones mudam de cor ao clicar
-    document.querySelectorAll('.icons i').forEach(icon => {
-      icon.addEventListener('click', () => {
-        icon.classList.toggle('active');
-      });
-    });
-
-    // Carregar dados de locais e notícias do mesmo arquivo JSON
-    fetch('locais.json')
-      .then(response => response.json())
-      .then(data => {
-        // Marcadores no mapa
-        data.locais.forEach(local => {
-          L.marker(local.coords)
-            .addTo(map)
-            .bindPopup(local.nome);
-        });
-
-        // Cards de notícias
-        const container = document.querySelector('.card-grid');
-        data.noticias.forEach(noticia => {
-          const card = document.createElement('div');
-          card.classList.add('card');
-
-          card.innerHTML = `
-            <img src="${noticia.imagem}" alt="${noticia.titulo}" class="card-img">
-            <div class="card-body">
-              <h5 class="card-title">${noticia.titulo}</h5>
-              <p class="card-meta">${noticia.data}</p>
-              <p class="card-text">${noticia.descricao}</p>
-            </div>
-          `;
-
-          container.appendChild(card);
-        });
-      })
-      .catch(error => {
-        console.error('Erro ao carregar os dados:', error);
-      });
-  </script>
+  <script src="noticias.js"></script>
 </body>
 </html>

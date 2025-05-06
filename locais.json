@@ -1,78 +1,13 @@
 {
   "locais": [
-    {
-      "nome": "Posto Médico",
-      "coords": [-19.9185, -43.9988]
-    },
-    {
-      "nome": "Boca do Forno",
-      "coords": [-19.9180, -43.9994]
-    },
-    {
-      "nome": "Biblioteca",
-      "coords": [-19.9187, -44.0002]
-    },
-    {
-      "nome": "Prédio 43",
-      "coords": [-19.9189, -44.0006]
-    },
-    {
-      "nome": "Prédio 34",
-      "coords": [-19.9195, -44.0000]
-    },
-    {
-      "nome": "Teatro João Paulo II",
-      "coords": [-19.9192, -43.9989]
-    },
-    {
-      "nome": "DCE",
-      "coords": [-19.9190, -44.0010]
-    },
-    {
-      "nome": "Complexo Esportivo",
-      "coords": [-19.9201, -43.9997]
-    },
-    {
-      "nome": "Secretaria",
-      "coords": [-19.9184, -44.0004]
-    }
-  ],
-  "noticias": [
-    {
-      "titulo": "PUC Aberta",
-      "data": "06/05-09/05 - PUC Minas Coreu",
-      "descricao": "O PUC Aberta é a oportunidade perfeita para você explorar os cursos oferecidos por uma das melhores universidades do mundo. Mais do que uma simples mostra de profissões...",
-      "imagem": "pucaberta.jpg"
-    },
-    {
-      "titulo": "Comp Software Day",
-      "data": "21/03/2025 - Teatro PUC Minas",
-      "descricao": "Alunos da PUC Minas, não percam a palestra sobre a inauguração da nova Empresa Júnior, a COMP! Venham conhecer os projetos inovadores e as oportunidades que essa...",
-      "imagem": "comp.jpg"
-    },
-    {
-      "titulo": "Sejam bem-vindos à PUC!",
-      "data": "12/04/2025 - Complexo da PUC Minas",
-      "descricao": "Venham para o evento de recepção de calouros, que terá muitas atividades e surpresas! Vocês poderão conhecer a universidade, fazer novas amizades e começar essa jornada...",
-      "imagem": "boasvindas.jpg"
-    },
-    {
-      "titulo": "Maratona Feminina de Programação",
-      "data": "07/04/2025 - Teatro PUC Minas",
-      "descricao": "Meninas da Computação, é a hora de brilhar! Estão abertas as inscrições para a Maratona Feminina de Programação da SBC! Se você curte desafios, quer aprender mais sobre...",
-      "imagem": "mfp.jpg"
-    },
-    {
-      "titulo": "Obras",
-      "data": "Data não definida - Prédio 9",
-      "descricao": "O prédio 9 está em obra e não pode ser utilizado por tempo indeterminado.",
-      "imagem": "obra.jpg"
-    },
-    {
-      "titulo": "Desconto no R.U",
-      "data": "05/05/2025 - Lanchonete próxima ao DCE",
-      "descricao": "Aproveite a promoção imperdível na PUC! Hambúrgueres e sucos naturais com 15% de desconto, para você saborear o melhor com preço especial! Só aqui, só hoje, não perca!",
-      "imagem": "promocao.jpg"
-    }
+    { "nome": "Posto Médico", "coords": [-19.9185, -43.9988] },
+    { "nome": "Boca do Forno", "coords": [-19.9180, -43.9994] },
+    { "nome": "Biblioteca", "coords": [-19.9187, -44.0002] },
+    { "nome": "Prédio 43", "coords": [-19.9189, -44.0006] },
+    { "nome": "Prédio 34", "coords": [-19.9195, -44.0000] },
+    { "nome": "Teatro João Paulo II", "coords": [-19.9192, -43.9989] },
+    { "nome": "DCE", "coords": [-19.9190, -44.0010] },
+    { "nome": "Complexo Esportivo", "coords": [-19.9201, -43.9997] },
+    { "nome": "Secretaria", "coords": [-19.9184, -44.0004] }
   ]
 }

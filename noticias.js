@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('locais.json')
+  fetch('noticias.json')
     .then(response => response.json())
-    .then(noticias => {
+    .then(dados => {
       const container = document.querySelector('.card-grid');
 
-      script.forEach(noticia => {
+      dados.noticias.forEach(noticia => {
         const card = document.createElement('div');
         card.classList.add('card');
 
